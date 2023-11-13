@@ -37,9 +37,11 @@
     <section id="about">
       <h2>The team</h2>
       <h3>Artist: Phoenix CM: 0x_Money</h3>
-      
-      <button type="submit">Submit Form</button>
+
     </section>
+    <button id="red">Red</button>
+    <button id="blue">Blue</button>
+    <button id="green">Green</button>
 
     <section id="theart">
       <h2>Here's some of our art</h2>
@@ -72,7 +74,13 @@
   <h4>Access our social media handles <a href="https://twitter.com/theboodao">here</a></h4>
 </footer>
 </body>
+<script>
+  let body = document.querySelector('body');
+  document.querySelector('#red').addEventListener('click', function(){
+      body.style.backgroundColor = 'red';
+  });
 
+</script>
 
 
 </html>
