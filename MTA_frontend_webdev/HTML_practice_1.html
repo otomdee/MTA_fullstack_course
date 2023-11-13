@@ -40,9 +40,9 @@
 
     </section>
     <button id="red">Red</button>
-    <button id="blue">Blue</button>
-    <button id="green">Green</button>
+    <p>
 
+    </p>
     <section id="theart">
       <h2>Here's some of our art</h2>
       <ul>
@@ -67,6 +67,16 @@
         </q>
       </blockquote>
     </section>
+    <div>
+      <input name="color" type="radio" value="red"> Red
+    </div>
+    <div>
+      <input name="choice" list="choices" placeholder="Your Choice">
+      <datalist id="choices">
+        <option value="First choice">
+        <option value="Second choice"></option> 
+      </datalist>
+    </div>
 
   </main>
 
@@ -75,9 +85,9 @@
 </footer>
 </body>
 <script>
-  let body = document.querySelector('body');
+  let pee = document.querySelector('p');
   document.querySelector('#red').addEventListener('click', function(){
-      body.style.backgroundColor = 'red';
+      pee.innerHTML = `dee`;
   });
 
 </script>
