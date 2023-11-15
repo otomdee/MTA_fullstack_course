@@ -10,7 +10,9 @@
   <meta name="twitter:image:src" content="\images\bussin boomers.jpg" />
   <link rel="stylesheet" src="the_style_sheet.css" />
   <link rel="icon" src="\images\businb.jpg" />
-  <link rel ="canonical" href="https://www.theboodao.io" />  
+  <link rel ="canonical" href="https://www.theboodao.io" /> 
+
+
 </head>
 
 
@@ -39,7 +41,10 @@
       <h3>Artist: Phoenix CM: 0x_Money</h3>
 
     </section>
-    <button id="red">Red</button>
+    <form>
+      <input type="text" id="myform">
+      <button id="but" type="submit">Submit</button>
+    </form>
     <p>
 
     </p>
@@ -85,11 +90,26 @@
 </footer>
 </body>
 <script>
-  let pee = document.querySelector('p');
-  document.querySelector('#red').addEventListener('click', function(){
-      pee.innerHTML = `dee`;
-  });
+  let buttn = document.querySelector('form');
+  let input = document.querySelector('#myform');
+  let content = input.value;
+  let word = content;
 
+  input.addEventListener('keyup', function(){
+    word.append
+    console.log(word);
+      buttn.addEventListener('submit', function(event){
+        if (content == "milk") {
+          input.style.backgroundColor = 'green';
+          console.log(content);
+        }
+        else {
+          input.style.backgroundColor = 'red';
+        }
+
+        event.preventDefault();
+    });
+  });
 </script>
 
 
