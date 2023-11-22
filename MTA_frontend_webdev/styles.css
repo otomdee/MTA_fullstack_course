@@ -1,3 +1,8 @@
 body {
     font-family: 'Montserrat', 'sans-serif';
 }
+
+nav > a {
+    text-decoration: none;
+    color:cornflowerblue;
+}
