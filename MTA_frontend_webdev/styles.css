@@ -27,4 +27,6 @@ header {
 #bod-sect {
    margin: 5% 20%;
    background-image: linear-gradient(cornflowerblue, white);
+   border-radius: 4px;
+   padding: 1% 8%;
 }
