@@ -17,3 +17,9 @@ nav > div > a {
 .nav {
     display: inline;
 }
+
+/*body*/
+
+header {
+    text-align: center;
+}
