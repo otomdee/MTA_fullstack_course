@@ -23,3 +23,8 @@ nav > div > a {
 header {
     text-align: center;
 }
+
+#bod-sect {
+   margin: 5% 20%;
+   background-image: linear-gradient(cornflowerblue, white);
+}
